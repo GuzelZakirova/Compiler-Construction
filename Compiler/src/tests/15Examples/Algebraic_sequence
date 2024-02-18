@@ -1,0 +1,12 @@
+routine AlgebraicSequence(n: integer): integer is
+    var a0: integer is 1
+    var b: integer is 1
+    var result: integer is a0 + (n - 1) * b
+    return result
+end
+
+routine main(): void is
+    var n: integer is 5
+    var nthElement: integer is AlgebraicSequence(n)
+    -- Вывести nthElement (предполагается, что есть функция print)
+end

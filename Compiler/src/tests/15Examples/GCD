@@ -1,0 +1,15 @@
+routine GCD(a: integer, b: integer): integer is
+    while b ≠ 0 loop
+        var temp: integer is b
+        b := a % b
+        a := temp
+    end
+    return a
+end
+
+routine main(): void is
+    var num1: integer is 48
+    var num2: integer is 18
+    var gcdResult: integer is GCD(num1, num2)
+    -- Вывести результат (предполагается, что есть функция print)
+end

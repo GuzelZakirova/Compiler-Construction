@@ -1,0 +1,17 @@
+routine FindDivisors(num: integer): ArrayType is
+    var divisors: ArrayType
+    var count: integer is 0
+    for i in 1..num loop
+        if num % i = 0 then
+            divisors[count+1] := i
+            count := count + 1
+        end
+    end
+    return divisors
+end
+
+routine main(): void is
+    var numberToFactor: integer is 12
+    var divisors: ArrayType is FindDivisors(numberToFactor)
+    -- Вывести массив divisors (предполагается, что есть функция print)
+end

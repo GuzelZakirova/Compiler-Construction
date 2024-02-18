@@ -1,0 +1,20 @@
+type ArrayType is array [10] integer
+
+routine BubbleSort(arr: ArrayType): void is
+    var n: integer is 10
+    for i in 1..n-1 loop
+        for j in 1..n-i loop
+            if arr[j] > arr[j+1] then
+                var temp: integer is arr[j]
+                arr[j] := arr[j+1]
+                arr[j+1] := temp
+            end
+        end
+    end
+end
+
+routine main(): void is
+    var myArray: ArrayType is [4, 7, 1, 9, 3, 6, 8, 2, 5, 10]
+    BubbleSort(myArray)
+    -- Вывести отсортированный массив (предполагается, что есть функция print)
+end

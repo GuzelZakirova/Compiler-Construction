@@ -1,0 +1,19 @@
+routine WordCount(inputString: string): integer is
+    var count: integer is 0
+    var isWord: boolean is false
+    for char in inputString loop
+        if char ≠ ' ' and not isWord then
+            isWord := true
+            count := count + 1
+        elseif char = ' ' then
+            isWord := false
+        end
+    end
+    return count
+end
+
+routine main(): void is
+    var input: string is "Это пример количества слов в строке"
+    var count: integer is WordCount(input)
+    -- Вывести результат (предполагается, что есть функция print)
+end

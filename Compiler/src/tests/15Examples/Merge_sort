@@ -1,0 +1,40 @@
+type ArrayType is array [10] integer
+
+routine MergeSort(arr: ArrayType): void is
+    if length(arr) > 1 then
+        var middle: integer is length(arr) / 2
+        var left: ArrayType is arr[1..middle]
+        var right: ArrayType is arr[middle+1..length(arr)]
+        MergeSort(left)
+        MergeSort(right)
+        var i: integer is 1
+        var j: integer is 1
+        var k: integer is 1
+        while i <= length(left) and j <= length(right) loop
+            if left[i] <= right[j] then
+                arr[k] := left[i]
+                i := i + 1
+            else
+                arr[k] := right[j]
+                j := j + 1
+            end
+            k := k + 1
+        end
+        while i <= length(left) loop
+            arr[k] := left[i]
+            i := i + 1
+            k := k + 1
+        end
+        while j <= length(right) loop
+            arr[k] := right[j]
+            j := j + 1
+            k := k + 1
+        end
+    end
+end
+
+routine main(): void is
+    var myArray: ArrayType is [4, 7, 1, 9, 3, 6, 8, 2, 5, 10]
+    MergeSort(myArray)
+    -- Вывести отсортированный массив (предполагается, что есть функция print)
+end

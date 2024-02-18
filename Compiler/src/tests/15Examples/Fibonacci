@@ -1,0 +1,13 @@
+routine Fibonacci(n: integer): integer is
+    if n <= 1 then
+        return n
+    else
+        return Fibonacci(n-1) + Fibonacci(n-2)
+    end
+end
+
+routine main(): void is
+    var n: integer is 7
+    var result: integer is Fibonacci(n)
+    -- Вывести результат (предполагается, что есть функция print)
+end
