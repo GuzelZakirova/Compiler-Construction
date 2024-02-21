@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8c58f8a1-c408-49d9-bba8-facab7dd8893" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Compiler/lib/jasmin.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Compiler/src/CodeGenerator/MyCodeGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Compiler/src/main/out.j" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Compiler/src/simpleGrammar/I.g4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Compiler/CodeGenerator/MyCodeGenerator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Compiler/main/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Compiler/main/ex.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Compiler/main/out.j" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Compiler/simpleGrammar/I.g4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Compiler/simpleGrammar/simpleGrammar.g4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Compiler/simpleGrammar/simpleGrammar.interp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Compiler/simpleGrammar/simpleGrammar.tokens" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Compiler/simpleGrammar/simpleGrammarBaseListener.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Compiler/simpleGrammar/simpleGrammarBaseVisitor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Compiler/simpleGrammar/simpleGrammarLexer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Compiler/simpleGrammar/simpleGrammarLexer.interp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Compiler/simpleGrammar/simpleGrammarLexer.tokens" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Compiler/simpleGrammar/simpleGrammarListener.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Compiler/simpleGrammar/simpleGrammarParser$BlockContext.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Compiler/simpleGrammar/simpleGrammarParser$CompilationUnitContext.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Compiler/simpleGrammar/simpleGrammarParser$EndContext.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Compiler/simpleGrammar/simpleGrammarParser$ExpressionContext.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Compiler/simpleGrammar/simpleGrammarParser$ExpressionStatementContext.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Compiler/simpleGrammar/simpleGrammarParser$MainProgContext.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Compiler/simpleGrammar/simpleGrammarParser$OperationContext.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Compiler/simpleGrammar/simpleGrammarParser$PrimitiveTypeContext.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Compiler/simpleGrammar/simpleGrammarParser$PrintKeyWordContext.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Compiler/simpleGrammar/simpleGrammarParser$RoutineContext.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Compiler/simpleGrammar/simpleGrammarParser$StatementContext.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Compiler/simpleGrammar/simpleGrammarParser$TypeContext.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Compiler/simpleGrammar/simpleGrammarParser$VariableDeclarationContext.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Compiler/simpleGrammar/simpleGrammarParser.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Compiler/simpleGrammar/simpleGrammarVisitor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Compiler/tests/15Examples/Algebraic_sequence" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Compiler/tests/15Examples/Bubble_sort" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Compiler/tests/15Examples/Days_in_month" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Compiler/tests/15Examples/ExtractDigits" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Compiler/tests/15Examples/Fibonacci" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Compiler/tests/15Examples/Find_divisors" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Compiler/tests/15Examples/GCD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Compiler/tests/15Examples/Geometric_progression_sum" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Compiler/tests/15Examples/IsPrime" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Compiler/tests/15Examples/Leap_year" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Compiler/tests/15Examples/Max_number" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Compiler/tests/15Examples/Max_sum" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Compiler/tests/15Examples/Merge_sort" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Compiler/tests/15Examples/Prime_factors" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Compiler/tests/15Examples/Word_count" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Compiler/visitor/MyVisitor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compiler/Compiler.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Compiler/Compiler.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compiler/src/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Compiler/src/main/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compiler/src/main/ex.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Compiler/src/main/ex.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compiler/src/simpleGrammar/simpleGrammar.g4" beforeDir="false" afterPath="$PROJECT_DIR$/Compiler/src/simpleGrammar/simpleGrammar.g4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compiler/src/simpleGrammar/simpleGrammar.interp" beforeDir="false" afterPath="$PROJECT_DIR$/Compiler/src/simpleGrammar/simpleGrammar.interp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compiler/src/simpleGrammar/simpleGrammar.tokens" beforeDir="false" afterPath="$PROJECT_DIR$/Compiler/src/simpleGrammar/simpleGrammar.tokens" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compiler/src/simpleGrammar/simpleGrammarBaseListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/Compiler/src/simpleGrammar/simpleGrammarBaseListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compiler/src/simpleGrammar/simpleGrammarBaseVisitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/Compiler/src/simpleGrammar/simpleGrammarBaseVisitor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compiler/src/simpleGrammar/simpleGrammarLexer.interp" beforeDir="false" afterPath="$PROJECT_DIR$/Compiler/src/simpleGrammar/simpleGrammarLexer.interp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compiler/src/simpleGrammar/simpleGrammarLexer.java" beforeDir="false" afterPath="$PROJECT_DIR$/Compiler/src/simpleGrammar/simpleGrammarLexer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compiler/src/simpleGrammar/simpleGrammarLexer.tokens" beforeDir="false" afterPath="$PROJECT_DIR$/Compiler/src/simpleGrammar/simpleGrammarLexer.tokens" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compiler/src/simpleGrammar/simpleGrammarListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/Compiler/src/simpleGrammar/simpleGrammarListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compiler/src/simpleGrammar/simpleGrammarParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/Compiler/src/simpleGrammar/simpleGrammarParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compiler/src/simpleGrammar/simpleGrammarVisitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/Compiler/src/simpleGrammar/simpleGrammarVisitor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compiler/src/visitor/MyVisitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/Compiler/src/visitor/MyVisitor.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2caUYsjjefWxWt8dyGaPZgG8qVI" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/Ernest/Desktop/Compiler-Construction/Compiler/src",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "configurable.group.tools"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Ernest\Desktop\Compiler-Construction\Compiler\lib" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.Main" />
+      <module name="Compiler" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RunJasminCode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.RunJasminCode" />
+      <module name="Compiler" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Sample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Sample" />
+      <module name="Compiler" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.RunJasminCode" />
+        <item itemvalue="Application.Sample" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8c58f8a1-c408-49d9-bba8-facab7dd8893" name="Changes" comment="" />
+      <created>1708349238352</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1708349238352</updated>
+      <workItem from="1708349241950" duration="16273000" />
+      <workItem from="1708452811030" duration="277000" />
+      <workItem from="1708453108909" duration="11470000" />
+      <workItem from="1708501969941" duration="14935000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
