@@ -1,5 +1,0 @@
-routine main(): void is
-    var a: integer is 1
-    var b: integer is 2
-    var result: integer is a + b
-end
