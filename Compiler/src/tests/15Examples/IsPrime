@@ -1,0 +1,17 @@
+routine IsPrime(num: integer): boolean is
+    if num <= 1 then
+        return false
+    end
+    for i in 2..num-1 loop
+        if num % i = 0 then
+            return false
+        end
+    end
+    return true
+end
+
+routine main(): void is
+    var numberToCheck: integer is 17
+    var isPrime: boolean is IsPrime(numberToCheck)
+    -- Вывести результат (предполагается, что есть функция print)
+end

@@ -1,0 +1,13 @@
+routine ExtractDigits(number: integer): ArrayType is
+    var digits: ArrayType
+    digits[1] := number / 100
+    digits[2] := (number / 10) % 10
+    digits[3] := number % 10
+    return digits
+end
+
+routine main(): void is
+    var inputNumber: integer is 325
+    var extractedDigits: ArrayType is ExtractDigits(inputNumber)
+    -- Вывести массив extractedDigits (предполагается, что есть функция print)
+end

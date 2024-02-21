@@ -1,0 +1,19 @@
+type ArrayType is array [10] integer
+
+routine FindMax(arrayToSearch: ArrayType): integer is
+    var max: integer is 0
+    for index in 1..10 loop
+        if arrayToSearch[index] > max then
+            max := arrayToSearch[index]
+        end
+    end
+    return max
+end
+
+routine main(): void is
+    var myArray: ArrayType is [4, 7, 1, 9, 3, 6, 8, 2, 5, 10]
+    var maximum: integer is FindMax(myArray)
+    -- Print the maximum value
+    -- (Assuming a print routine exists)
+    print("The maximum value in the array is: ", maximum)
+end

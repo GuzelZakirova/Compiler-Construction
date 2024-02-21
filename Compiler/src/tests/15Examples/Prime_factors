@@ -1,0 +1,21 @@
+routine PrimeFactors(num: integer): ArrayType is
+    var factors: ArrayType
+    var count: integer is 0
+    var divisor: integer is 2
+    while num > 1 loop
+        if num % divisor = 0 then
+            factors[count+1] := divisor
+            count := count + 1
+            num := num / divisor
+        else
+            divisor := divisor + 1
+        end
+    end
+    return factors
+end
+
+routine main(): void is
+    var numberToFactorize: integer is 56
+    var factors: ArrayType is PrimeFactors(numberToFactorize)
+    -- Вывести массив factors (предполагается, что есть функция print)
+end
