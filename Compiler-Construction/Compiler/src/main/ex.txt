@@ -1,0 +1,9 @@
+routine main(): void is
+    var alpha: integer is 1
+    var gamma: integer is 2
+    var c = 4
+    var d = 5
+    var result: integer is alpha + d
+    print(result)
+
+end

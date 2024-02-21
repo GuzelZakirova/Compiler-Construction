@@ -1,0 +1,15 @@
+routine GeometricProgressionSum(a: integer, r: integer, n: integer): integer is
+    var sum: integer is 0
+    for i in 0..n-1 loop
+        sum := sum + a * (r ** i)
+    end
+    return sum
+end
+
+routine main(): void is
+    var a0: integer is 2
+    var ratio: integer is 3
+    var terms: integer is 4
+    var sum: integer is GeometricProgressionSum(a0, ratio, terms)
+    -- Вывести sum (предполагается, что есть функция print)
+end

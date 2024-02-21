@@ -1,0 +1,9 @@
+routine IsLeapYear(year: integer): boolean is
+    return (year % 4 = 0 and year % 100 ≠ 0) or (year % 400 = 0)
+end
+
+routine main(): void is
+    var yearToCheck: integer is 2024
+    var isLeap: boolean is IsLeapYear(yearToCheck)
+    -- Вывести isLeap (предполагается, что есть функция print)
+end
