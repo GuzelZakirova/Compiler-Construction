@@ -1,0 +1,22 @@
+type ArrayType is array [10] integer
+
+routine FindMaxSum(arr: ArrayType): integer is
+    var n: integer is 10
+    var maxSum: integer is 0
+    var currentSum: integer is 0
+    for i in 1..n loop
+        currentSum := currentSum + arr[i]
+        if currentSum > maxSum then
+            maxSum := currentSum
+        elseif currentSum < 0 then
+            currentSum := 0
+        end
+    end
+    return maxSum
+end
+
+routine main(): void is
+    var myArray: ArrayType is [-2, 3, -4, 2, -1, 5, -3, 7, -8, 2]
+    var maxSum: integer is FindMaxSum(myArray)
+    -- Вывести результат (предполагается, что есть функция print)
+end
