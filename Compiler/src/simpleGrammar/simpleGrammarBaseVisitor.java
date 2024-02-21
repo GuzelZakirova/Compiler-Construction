@@ -1,4 +1,4 @@
-// Generated from C:/Users/guzel/IdeaProjects/CompilerMyGitHub/Compiler-Construction/Compiler/src/simpleGrammar/simpleGrammar.g4 by ANTLR 4.13.1
+// Generated from C:/Users/Ernest/Desktop/Compiler-Construction/Compiler/src/simpleGrammar/simpleGrammar.g4 by ANTLR 4.13.1
 package simpleGrammar;
 import org.antlr.v4.runtime.tree.AbstractParseTreeVisitor;
 
@@ -46,6 +46,13 @@ public class simpleGrammarBaseVisitor<T> extends AbstractParseTreeVisitor<T> imp
 	 * <p>The default implementation returns the result of calling
 	 * {@link #visitChildren} on {@code ctx}.</p>
 	 */
+	@Override public T visitPrintKeyWord(simpleGrammarParser.PrintKeyWordContext ctx) { return visitChildren(ctx); }
+	/**
+	 * {@inheritDoc}
+	 *
+	 * <p>The default implementation returns the result of calling
+	 * {@link #visitChildren} on {@code ctx}.</p>
+	 */
 	@Override public T visitStatement(simpleGrammarParser.StatementContext ctx) { return visitChildren(ctx); }
 	/**
 	 * {@inheritDoc}
@@ -81,5 +88,19 @@ public class simpleGrammarBaseVisitor<T> extends AbstractParseTreeVisitor<T> imp
 	 * <p>The default implementation returns the result of calling
 	 * {@link #visitChildren} on {@code ctx}.</p>
 	 */
+	@Override public T visitPrimitiveType(simpleGrammarParser.PrimitiveTypeContext ctx) { return visitChildren(ctx); }
+	/**
+	 * {@inheritDoc}
+	 *
+	 * <p>The default implementation returns the result of calling
+	 * {@link #visitChildren} on {@code ctx}.</p>
+	 */
 	@Override public T visitType(simpleGrammarParser.TypeContext ctx) { return visitChildren(ctx); }
+	/**
+	 * {@inheritDoc}
+	 *
+	 * <p>The default implementation returns the result of calling
+	 * {@link #visitChildren} on {@code ctx}.</p>
+	 */
+	@Override public T visitEnd(simpleGrammarParser.EndContext ctx) { return visitChildren(ctx); }
 }

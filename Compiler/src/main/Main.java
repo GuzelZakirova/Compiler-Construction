@@ -7,9 +7,8 @@ import org.antlr.v4.runtime.CommonTokenStream;
 import org.antlr.v4.runtime.tree.ParseTree;
 import visitor.MyVisitor;
 
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.IOException;
+import java.io.*;
+
 
 public class Main {
     public static void main(String[] args) {
@@ -23,11 +22,36 @@ public class Main {
             ParseTree tree = parser.compilationUnit();
             MyVisitor visitor = new MyVisitor();
             visitor.visit(tree);
+            //GenerateOutCode(tree); -> создает файл out.j
+
+            String buildCommand = "java -jar C:\\Users\\Ernest\\Desktop\\Compiler-Construction\\Compiler\\lib\\jasmin.jar C:\\Users\\Ernest\\Desktop\\Compiler-Construction\\Compiler\\src\\main\\out.j\n";
+            executeCommand(buildCommand);
+
+            // 2. Запуск созданного файла .class с названием SumCalculator
+            String runCommand = "java SumCalculator";
+            executeCommand(runCommand);
 
         } catch (
-                IOException e) {
+                IOException | InterruptedException e) {
             e.printStackTrace();
         }
     }
+
+    public static void executeCommand(String command) throws IOException, InterruptedException {
+        // Создание объекта ProcessBuilder с заданной командой
+        ProcessBuilder processBuilder = new ProcessBuilder(command.split("\\s+"));
+
+        // Запуск процесса
+        Process process = processBuilder.start();
+
+        // Чтение вывода команды
+        BufferedReader reader = new BufferedReader(new InputStreamReader(process.getInputStream()));
+        String line;
+        while ((line = reader.readLine()) != null) {
+            System.out.println(line);
+        }
+
+    }
+
 }
 

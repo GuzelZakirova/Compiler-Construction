@@ -1,4 +1,4 @@
-// Generated from C:/Users/guzel/IdeaProjects/CompilerMyGitHub/Compiler-Construction/Compiler/src/simpleGrammar/simpleGrammar.g4 by ANTLR 4.13.1
+// Generated from C:/Users/Ernest/Desktop/Compiler-Construction/Compiler/src/simpleGrammar/simpleGrammar.g4 by ANTLR 4.13.1
 package simpleGrammar;
 import org.antlr.v4.runtime.tree.ParseTreeVisitor;
 
@@ -35,6 +35,12 @@ public interface simpleGrammarVisitor<T> extends ParseTreeVisitor<T> {
 	 */
 	T visitMainProg(simpleGrammarParser.MainProgContext ctx);
 	/**
+	 * Visit a parse tree produced by {@link simpleGrammarParser#printKeyWord}.
+	 * @param ctx the parse tree
+	 * @return the visitor result
+	 */
+	T visitPrintKeyWord(simpleGrammarParser.PrintKeyWordContext ctx);
+	/**
 	 * Visit a parse tree produced by {@link simpleGrammarParser#statement}.
 	 * @param ctx the parse tree
 	 * @return the visitor result
@@ -65,9 +71,21 @@ public interface simpleGrammarVisitor<T> extends ParseTreeVisitor<T> {
 	 */
 	T visitOperation(simpleGrammarParser.OperationContext ctx);
 	/**
+	 * Visit a parse tree produced by {@link simpleGrammarParser#primitiveType}.
+	 * @param ctx the parse tree
+	 * @return the visitor result
+	 */
+	T visitPrimitiveType(simpleGrammarParser.PrimitiveTypeContext ctx);
+	/**
 	 * Visit a parse tree produced by {@link simpleGrammarParser#type}.
 	 * @param ctx the parse tree
 	 * @return the visitor result
 	 */
 	T visitType(simpleGrammarParser.TypeContext ctx);
+	/**
+	 * Visit a parse tree produced by {@link simpleGrammarParser#end}.
+	 * @param ctx the parse tree
+	 * @return the visitor result
+	 */
+	T visitEnd(simpleGrammarParser.EndContext ctx);
 }

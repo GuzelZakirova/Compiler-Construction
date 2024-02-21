@@ -1,4 +1,4 @@
-// Generated from C:/Users/guzel/IdeaProjects/CompilerMyGitHub/Compiler-Construction/Compiler/src/simpleGrammar/simpleGrammar.g4 by ANTLR 4.13.1
+// Generated from C:/Users/Ernest/Desktop/Compiler-Construction/Compiler/src/simpleGrammar/simpleGrammar.g4 by ANTLR 4.13.1
 package simpleGrammar;
 
 import org.antlr.v4.runtime.ParserRuleContext;
@@ -65,6 +65,18 @@ public class simpleGrammarBaseListener implements simpleGrammarListener {
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
+	@Override public void enterPrintKeyWord(simpleGrammarParser.PrintKeyWordContext ctx) { }
+	/**
+	 * {@inheritDoc}
+	 *
+	 * <p>The default implementation does nothing.</p>
+	 */
+	@Override public void exitPrintKeyWord(simpleGrammarParser.PrintKeyWordContext ctx) { }
+	/**
+	 * {@inheritDoc}
+	 *
+	 * <p>The default implementation does nothing.</p>
+	 */
 	@Override public void enterStatement(simpleGrammarParser.StatementContext ctx) { }
 	/**
 	 * {@inheritDoc}
@@ -125,6 +137,18 @@ public class simpleGrammarBaseListener implements simpleGrammarListener {
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
+	@Override public void enterPrimitiveType(simpleGrammarParser.PrimitiveTypeContext ctx) { }
+	/**
+	 * {@inheritDoc}
+	 *
+	 * <p>The default implementation does nothing.</p>
+	 */
+	@Override public void exitPrimitiveType(simpleGrammarParser.PrimitiveTypeContext ctx) { }
+	/**
+	 * {@inheritDoc}
+	 *
+	 * <p>The default implementation does nothing.</p>
+	 */
 	@Override public void enterType(simpleGrammarParser.TypeContext ctx) { }
 	/**
 	 * {@inheritDoc}
@@ -132,6 +156,18 @@ public class simpleGrammarBaseListener implements simpleGrammarListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitType(simpleGrammarParser.TypeContext ctx) { }
+	/**
+	 * {@inheritDoc}
+	 *
+	 * <p>The default implementation does nothing.</p>
+	 */
+	@Override public void enterEnd(simpleGrammarParser.EndContext ctx) { }
+	/**
+	 * {@inheritDoc}
+	 *
+	 * <p>The default implementation does nothing.</p>
+	 */
+	@Override public void exitEnd(simpleGrammarParser.EndContext ctx) { }
 
 	/**
 	 * {@inheritDoc}

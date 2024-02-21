@@ -1,4 +1,4 @@
-// Generated from C:/Users/guzel/IdeaProjects/CompilerMyGitHub/Compiler-Construction/Compiler/src/simpleGrammar/simpleGrammar.g4 by ANTLR 4.13.1
+// Generated from C:/Users/Ernest/Desktop/Compiler-Construction/Compiler/src/simpleGrammar/simpleGrammar.g4 by ANTLR 4.13.1
 package simpleGrammar;
 import org.antlr.v4.runtime.tree.ParseTreeListener;
 
@@ -47,6 +47,16 @@ public interface simpleGrammarListener extends ParseTreeListener {
 	 * @param ctx the parse tree
 	 */
 	void exitMainProg(simpleGrammarParser.MainProgContext ctx);
+	/**
+	 * Enter a parse tree produced by {@link simpleGrammarParser#printKeyWord}.
+	 * @param ctx the parse tree
+	 */
+	void enterPrintKeyWord(simpleGrammarParser.PrintKeyWordContext ctx);
+	/**
+	 * Exit a parse tree produced by {@link simpleGrammarParser#printKeyWord}.
+	 * @param ctx the parse tree
+	 */
+	void exitPrintKeyWord(simpleGrammarParser.PrintKeyWordContext ctx);
 	/**
 	 * Enter a parse tree produced by {@link simpleGrammarParser#statement}.
 	 * @param ctx the parse tree
@@ -98,6 +108,16 @@ public interface simpleGrammarListener extends ParseTreeListener {
 	 */
 	void exitOperation(simpleGrammarParser.OperationContext ctx);
 	/**
+	 * Enter a parse tree produced by {@link simpleGrammarParser#primitiveType}.
+	 * @param ctx the parse tree
+	 */
+	void enterPrimitiveType(simpleGrammarParser.PrimitiveTypeContext ctx);
+	/**
+	 * Exit a parse tree produced by {@link simpleGrammarParser#primitiveType}.
+	 * @param ctx the parse tree
+	 */
+	void exitPrimitiveType(simpleGrammarParser.PrimitiveTypeContext ctx);
+	/**
 	 * Enter a parse tree produced by {@link simpleGrammarParser#type}.
 	 * @param ctx the parse tree
 	 */
@@ -107,4 +127,14 @@ public interface simpleGrammarListener extends ParseTreeListener {
 	 * @param ctx the parse tree
 	 */
 	void exitType(simpleGrammarParser.TypeContext ctx);
+	/**
+	 * Enter a parse tree produced by {@link simpleGrammarParser#end}.
+	 * @param ctx the parse tree
+	 */
+	void enterEnd(simpleGrammarParser.EndContext ctx);
+	/**
+	 * Exit a parse tree produced by {@link simpleGrammarParser#end}.
+	 * @param ctx the parse tree
+	 */
+	void exitEnd(simpleGrammarParser.EndContext ctx);
 }
